@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.kube/*
+
+*.tfstate*
+
+*kubeconfig*
+clouds.yaml
+# build output 
+bin/*
