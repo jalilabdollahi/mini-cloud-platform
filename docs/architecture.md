@@ -28,7 +28,7 @@ This repo is to create a fully automated platform to create desired resources in
 **Components**:
 1. *Platform-api*: Converts incoming HTTP request to a kubernetes object (a TENANT)
 2. *Tenant*: Is a custom resource which we add to Kubernetes.
-3. *Tenant-operator*: Creates whole Cluster not only namespaces, including  Namespace, ResourceQuota, RoleBindings, NetworkPolicy
+3. *Tenant-operator*: Creates Namespace, ResourceQuota, RoleBindings, NetworkPolicy in management cluster
 4. *Cluster API + CAPO*: CAPO stands for Cluster API Provider OpenStack, this creates VMs, networks, loadbalancers in OpenStack
 
 **Data flow**: 
